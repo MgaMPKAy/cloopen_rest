@@ -3,7 +3,7 @@ module Cloopen
     class Sms < InstanceResource
       def initialize(uri, cilent)
         super uri, cilent
-        resource :messages
+        resource :messages,:template_sms
       end
     end
   end
