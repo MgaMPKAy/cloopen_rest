@@ -7,7 +7,7 @@ module Cloopen
       end
     end
 
-    class TemplateSMS < InstanceResource
+    class TemplateSM < InstanceResource
     end
 
   end
