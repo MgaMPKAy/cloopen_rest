@@ -26,11 +26,11 @@ module Cloopen
       def beautify_hash(hash)
         hash = decloopfy hash
         hash.each do |k, v|
-          hash[k] = if v.is_a? Hash
-            beautify_hash v
-          else
+          #hash[k] = if v.is_a? Hash
+          #  beautify_hash v
+          #else
             v
-          end
+          #end
         end
       end
 
